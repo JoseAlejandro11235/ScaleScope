@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/fetch-startups/")
+      .get("https://scalescopeback.onrender.com/api/fetch-startups/")
       .then((res) => setStartups(res.data))
       .catch((err) => {
         console.error(err);
