@@ -119,7 +119,7 @@ function App() {
           onClick={exportToCSV}
           className="px-4 py-2 rounded-full border bg-white text-gray-700 hover:shadow"
         >
-          📥 Export Favorites to CSV
+          📥 Export {showFavorites ? "Favorites" : "All"}  to CSV
         </button>
       </div>
 
